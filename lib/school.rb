@@ -3,10 +3,11 @@ class School
 
   def initialize(school_name)
     @school_name = school_name
+    @roster = Hash.new
   end
 
   def roster
-    @roster = Hash.new
+    @roster
   end
 
   def add_student(student, grade)
