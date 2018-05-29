@@ -25,6 +25,8 @@ class School
 
   def sort
     roster_keys = @roster.keys
-    i = 0
+    roster_keys.each do |key|
+      @roster[key].sort
+      
   end
 end
