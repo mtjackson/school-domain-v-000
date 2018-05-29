@@ -25,5 +25,6 @@ class School
 
   def sort
     roster_keys = @roster.keys
+    i = 0
   end
 end
