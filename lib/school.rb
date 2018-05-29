@@ -28,7 +28,7 @@ class School
     roster_keys = @roster.keys.sort
     roster_keys.each do |key|
       sorted_roster[key] = []
-      sorted_roster[key] << @roster[key].sort
+      sorted_roster[key] << @roster[key].sort.join
       #@roster[key].sort
     end
     sorted_roster
